@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Official support information for the Kuno language-learning app."
+    />
+    <title>Kuno Support</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f6f3ee;
+        --card: #fffdf9;
+        --text: #1f2937;
+        --muted: #5b6472;
+        --line: #e5ddd1;
+        --accent: #1f6aa5;
+        --accent-soft: #eef5fb;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", system-ui, sans-serif;
+        background: linear-gradient(180deg, var(--bg) 0%, #efe9df 100%);
+        color: var(--text);
+      }
+
+      main {
+        width: min(860px, calc(100% - 32px));
+        margin: 40px auto;
+        padding: 28px;
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        box-shadow: 0 18px 50px rgba(31, 41, 55, 0.08);
+      }
+
+      h1,
+      h2 {
+        margin: 0 0 12px;
+        line-height: 1.2;
+      }
+
+      h1 {
+        font-size: clamp(2rem, 4vw, 2.8rem);
+      }
+
+      h2 {
+        margin-top: 28px;
+        font-size: 1.15rem;
+      }
+
+      p,
+      li {
+        color: var(--muted);
+        line-height: 1.7;
+      }
+
+      ul {
+        padding-left: 20px;
+      }
+
+      a {
+        color: var(--accent);
+      }
+
+      .intro {
+        padding: 14px 16px;
+        border: 1px solid #d5e6f6;
+        border-radius: 14px;
+        background: var(--accent-soft);
+      }
+
+      .contact-link {
+        display: inline-block;
+        margin-top: 4px;
+        font-weight: 600;
+      }
+
+      footer {
+        margin-top: 32px;
+        padding-top: 20px;
+        border-top: 1px solid var(--line);
+      }
+
+      footer p {
+        margin-bottom: 0;
+      }
+
+      @media (max-width: 520px) {
+        main {
+          margin: 16px auto;
+          padding: 22px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Kuno Support</h1>
+      <p class="intro">
+        Welcome to the official support page for Kuno, a language-learning app
+        for creating personal dictionaries, vocabulary Cubes, and custom study
+        content.
+      </p>
+
+      <h2>Contact support</h2>
+      <p>
+        For technical support, account assistance, or purchase questions,
+        email us at
+        <a class="contact-link" href="mailto:contact@kunotheca.com"
+          >contact@kunotheca.com</a
+        >.
+      </p>
+
+      <h2>Sign-in and password reset</h2>
+      <p>
+        You can sign in using a supported account method shown in the app. If
+        you use email and password and cannot sign in, select the password
+        reset option on the sign-in screen and check your inbox and spam folder
+        for the reset email.
+      </p>
+
+      <h2>Dictionaries and Cubes</h2>
+      <p>
+        Dictionaries organize your learning collections. Each dictionary can
+        contain vocabulary Cubes with text, images, and custom properties. If
+        content does not appear after saving, confirm that you have a stable
+        internet connection, then close and reopen the relevant list.
+      </p>
+
+      <h2>AI-assisted features and tokens</h2>
+      <p>
+        AI-assisted features run only when you choose to use them and may
+        require tokens. Generated results can vary, so review suggested content
+        before saving it. If a request fails, check your connection and token
+        balance before trying again.
+      </p>
+
+      <h2>Subscriptions and purchases</h2>
+      <p>
+        Purchases are processed by the App Store. If an active subscription or
+        purchase is not recognized, make sure you are signed in with the Apple
+        Account used for the purchase, then use the Restore Purchases option in
+        the app. You will not be charged again for restoring an eligible
+        purchase.
+      </p>
+
+      <h2>Camera and photo library access</h2>
+      <p>
+        Camera and photo library access is optional and requested only when you
+        choose to add an image. If access was previously denied, open the iOS
+        Settings app, find Kuno, and enable the required permission.
+      </p>
+
+      <h2>Reporting a technical problem</h2>
+      <p>To help us investigate quickly, please include:</p>
+      <ul>
+        <li>Your device model and iOS version.</li>
+        <li>The Kuno app version.</li>
+        <li>A short description of what happened.</li>
+        <li>The steps that caused the problem.</li>
+        <li>A screenshot, if available and appropriate.</li>
+      </ul>
+      <p>
+        Do not include passwords, payment card details, or other sensitive
+        information in your support message.
+      </p>
+
+      <footer>
+        <p>
+          Read the <a href="./privacy-policy.html">Privacy Policy</a> or visit
+          the <a href="./delete-account.html">Account Deletion</a> page.
+        </p>
+      </footer>
+    </main>
+  </body>
+</html>
